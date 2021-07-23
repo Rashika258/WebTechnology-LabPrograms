@@ -1,0 +1,16 @@
+body {
+    background-color: #52006A !important;
+}
+div {
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #FFA900;
+    border-radius: 5px;
+}
+h1 {
+    text-align: justify;
+    color:#0A1931 ;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Rashika's LeftMostVowel</title>
+    <style>
+      body {
+        margin: 10%;
+      }
+      .box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+    <script>
+      function vow(st) {
+        var pos;
+        pos = st.search(/[aeiouAEIOU]/);
+        if (pos < 0) alert("vowel not found\n");
+        else alert("Position of the left most vowel is " + (pos + 1));
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <form action="">
+          <p class="h1 display-1">
+            Find the position in the string of left most vowel
+          </p>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon3"
+              >Enter the text</span
+            >
+            <input
+              id="voweltext"
+              type="text"
+              class="form-control"
+              id="basic-url"
+              aria-describedby="basic-addon3"
+            />
+            <br />
+            <input
+              class="btn btn-dark"
+              type="button"
+              value="Submit"
+              onclick="vow(voweltext.value);"
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

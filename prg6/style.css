@@ -1,0 +1,19 @@
+body {
+    background-color: #D62AD0;
+}
+
+div {
+    margin: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #78DEC7;
+    border-radius: 25px;
+}
+
+h1 {
+    font-size: 50px;
+    color: #0A1931;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,19 @@
+body{
+    background-color: #5c0029;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+#box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    font-size: x-large;
+    font-family: cursive;
+}
